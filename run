@@ -1,0 +1,9 @@
+#!/bin/sh
+PORT='3000'
+mongrel_rails stop
+rake solr:stop
+sleep 1
+rake solr:start
+sleep 1
+echo "mongrel_rails start ruby script/server --port ${PORT} --daemon"
+mongrel_rails start ruby script/server --port ${PORT} --daemon

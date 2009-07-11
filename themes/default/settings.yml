@@ -1,11 +1,11 @@
 # Site's name:
-name: 'Calagator'
+name: 'lalacal'
 
 # Site's tagline:
-tagline: "Portland's Tech Calendar"
+tagline: "Los Angeles' Tech Calendar"
 
 # Site's URL with trailing slash:
-url: 'http://calagator.org/'
+url: 'http://lalacal.com/'
 
 # Default timezone for Rails, run "rake time:zones:all" for options:
 timezone: 'Pacific Time (US & Canada)'
@@ -19,4 +19,4 @@ venues_google_map_options:
   # Zoom magnification level:
   zoom: 12
   # Center of the map, in latitude and longitude:
-  center: [45.518493, -122.660737]
+  center: [34.07151997263351, -118.3614045381546]
